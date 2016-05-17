@@ -1,0 +1,52 @@
+img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+h1 {
+  align-items: center;
+  color: #eee;
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+  span {
+    font-size: 16px;
+    margin-left: auto;
+  }
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+ul.genres {
+  display: inline;
+  margin-left: auto;
+
+  li {
+    display: inline;
+
+    + li:before {
+      content: ', ';
+    }
+  }
+}
+
+p {
+  line-height: 20px;
+}
+
+dl {
+  dt {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  dd {
+    display: block;
+    margin-bottom: 15px;
+  }
+}

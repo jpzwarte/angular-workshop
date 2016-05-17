@@ -1,0 +1,38 @@
+ul {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px -30px 0;
+}
+
+li {
+  display: inline-flex;
+  margin: 0 30px 30px 0;
+}
+
+a {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  width: 185px;
+}
+
+img {
+  box-shadow: 0 0 4px rgba(0,0,0,.3),inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+span {
+  margin-top: 8px;
+}
+
+.title {
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.year {
+  color: #999;
+}

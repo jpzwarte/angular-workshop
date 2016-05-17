@@ -1,0 +1,43 @@
+input {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 15px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 0 15px;
+  width: 100%;
+
+  &:focus {
+    background-color: #eee;
+  }
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  line-height: 30px;
+  padding: 0 15px;
+
+  + li {
+    margin-top: 10px;
+  }
+
+  section {
+    flex: 1;
+    margin: 0 15px;
+  }
+
+  h1 {
+    color: #eee;
+    font-size: 20px;
+  }
+
+  p {
+    line-height: 20px;
+  }
+}

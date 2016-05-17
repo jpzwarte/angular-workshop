@@ -1,0 +1,14 @@
+<input type="text" [ngFormControl]="query" placeholder="Search for movies"/>
+
+<p *ngFor="let msg of messages">{{msg}}</p>
+
+<ul>
+  <li *ngFor="let movie of movies | async">
+    <img src="http://image.tmdb.org/t/p/w92{{movie.poster_path}}"/>
+    <section>
+      <h1>{{movie.title}}</h1>
+      <p>{{movie.overview}}</p>
+    </section>
+    <button (click)="add(movie)">Add</button>
+  </li>
+</ul>

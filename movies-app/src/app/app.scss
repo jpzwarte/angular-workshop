@@ -1,0 +1,52 @@
+@import 'reset';
+
+@font-face {
+  font-family: 'The Message';
+  src: url('/the_message-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'The Message';
+  src: url('/the_message-demibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+button,
+html,
+input,
+select,
+textarea {
+  font: 14px/20px 'The Message', Arial, sans-serif;
+}
+
+html {
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+button {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  color: #eee;
+  cursor: pointer;
+  line-height: 28px;
+  outline: none;
+  padding: 0 10px;
+  transition: background 0.2s ease-in-out;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
